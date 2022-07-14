@@ -1,4 +1,5 @@
 import {FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa'
+import './index.css'
 import {
     HeroContainer,
     HeroBg,

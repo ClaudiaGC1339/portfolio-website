@@ -30,20 +30,13 @@ const NavBar = ({toggle}) => {
     useEffect(() => {
       window.addEventListener('scroll', changeNav);
     }, []);
-      
-    const toggleHome = () => {
-      scroll.scrollToTop();
-    };
-      
+            
 
     return (
             <IconContext.Provider value={{ color: '#fff' }} >
                 <Nav scrollNav={scrollNav} >
                     <NavBarContainer>
-                    
-                        <MobileIcon onClick={toggle}>
                             <FaBars />
-                        </MobileIcon>
                         <NavMenu>
                             <NavItem>
                                 <NavLinks

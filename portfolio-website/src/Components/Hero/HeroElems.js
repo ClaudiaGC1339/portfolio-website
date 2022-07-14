@@ -1,4 +1,4 @@
-
+import './index.css'
 import styled from 'styled-components';
 // import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
 
@@ -42,8 +42,8 @@ export const HeroBg = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101%;
   overflow: hidden;
 `;
 
@@ -53,7 +53,7 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background-size: auto;
-  background-image: url('https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif'); 
+  background-image: url('https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif');
   
 `;
 
