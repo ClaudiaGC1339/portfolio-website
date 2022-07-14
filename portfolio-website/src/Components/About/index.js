@@ -41,7 +41,7 @@ const About = ({
                     <Column1>
                         <TextWrapper>
                         <Heading >{headline} </Heading>
-                        <AboutH2>Denver, CO</AboutH2>
+                        <AboutH2>London, UK</AboutH2>
                         <Subtitle> {description} </Subtitle>
                         <HeroBtnWrapper>
                         <Button
