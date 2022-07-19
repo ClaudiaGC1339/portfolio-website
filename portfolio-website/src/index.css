@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Pacifico&display=swap');
+
+:root{
+  --font-base: "DM Sans", sans-ser;
+
+  --yellow-color: #fff59d;
+  --font-color: #fff;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
