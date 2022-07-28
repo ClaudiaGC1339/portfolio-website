@@ -1,45 +1,13 @@
 import './index.css'
 import styled from 'styled-components';
 
-// export const HeroContainer = styled.div`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 900px;
-//   position: relative;
-//   z-index: 1;
-// `;
-
-// export const HeroBg = styled.div`
-//   background-image: url('../../Images/footer-bg.png');
-//   color: black;
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-//   left: 0;
-//   width: 110%;
-//   height: 101%;
-//   overflow: hidden;
-// `;
-
-
-// export const HeroContent = styled.div`
-//   z-index: 3;
-//   max-width: 1200px;
-//   position: absolute;
-//   padding: 8px 24px;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-// `;
 
 export const HeroH1 = styled.h1`
   color: #fff59d;
   border-right: solid 3px rgba(255 ,255 ,255 ,.75);
   white-space: nowrap;
   overflow: hidden; 
-  font-size: 48px;
+  font-size: 80px;
   text-align: center;
   text-shadow: 0 0 10px #fff59d;
   
@@ -47,11 +15,10 @@ export const HeroH1 = styled.h1`
              animated-cursor 600ms steps(12,end) infinite;
   @keyframes animated-text{
     from{width: 0;}
-    to{width: 400px;}
+    to{width: 700px;}
   }
               
   @keyframes animated-cursor{
-    ${'' /* from{border-right-color: rgba(255, 255, 255,.75);} */}
     to{border-right-color: transparent;}
   };
   @media screen and (max-width: 768px) {
@@ -64,9 +31,9 @@ export const HeroH1 = styled.h1`
 
 
 export const HeroP = styled.p`
-  margin-top: 10px;
+  margin-top: -100px;
   color: #fff;
-  font-size: 100px;
+  font-size: 80px;
   text-align: center;
   max-width: 600px;
   padding: 70px;
@@ -103,12 +70,3 @@ export const LinkContainer = styled.div`
     
   }
 `
-export const HeroBtnWrapper = styled.div`
-  color: #fff59d
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-`;
-

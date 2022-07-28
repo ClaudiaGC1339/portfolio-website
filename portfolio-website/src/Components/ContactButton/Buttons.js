@@ -1,28 +1,29 @@
-import styled from 'styled-components';
-import { Link } from 'react-scroll';
+import React, { useState } from "react";
+import "./button.css";
 
-export const Button = styled(Link)`
-  border-radius: 50px;
-  background: #87e1f5;
-  white-space: nowrap;
-  padding: 14px 48px;
-  color: #010606;
-  font-size: 20px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.2s ease-in-out;
-  box-shadow: 0px 0px 14px -7px #f09819;
-  @media screen and (max-width: 700px) {
-    font-size: 16px;
-    padding: 12px 30px;
-  }
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? '#fff59d' : '#87e1f5')};
-    ${'' /* background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%); */}
-  }
-`
+
+function ContactButton() {
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
+  };
+  return (
+      <button
+        className="contact-bttn"
+        to="contact"
+        smooth={true}
+        duration={500}
+        spy={true}
+        exact="true"
+        offset={-80}
+        primary="true"
+        dark="true"
+        onMouseEnter={onHover}
+        onMouseLeave={onHover}
+      >
+        Let's Connect
+      </button>
+  );
+}
+export default ContactButton;
