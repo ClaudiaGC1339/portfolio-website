@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import "./index.scss";
+import "./style.scss";
 import {
   FaBars,
   FaRegUser,
@@ -8,7 +8,7 @@ import {
   FaAddressBook,
   FaCode,
 } from "react-icons/fa";
-import ContactButton from "../ContactButton/Buttons";
+import ContactButton from "../ContactButton";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);

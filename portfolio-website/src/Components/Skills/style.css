@@ -1,0 +1,40 @@
+.container{
+    background-image: url('../../Images/About.jpg');
+    height: 100%;
+}
+
+.skills-container {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.skills-card{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    z-index: 0;
+}
+
+.skills-wrapper{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 80px;
+    padding: 0;
+}
+
+.skills-title{
+    color: #fff
+}
+

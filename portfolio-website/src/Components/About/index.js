@@ -1,6 +1,5 @@
-import "./index.scss";
+import "./style.scss";
 import React from "react";
-// import NavBar from "../Navbar";
 import DownloadButton from "../CV Button";
 
 
@@ -8,7 +7,6 @@ const About = () => {
   return (
     <div className="container">
       <div className="about-background">
-      {/* <NavBar /> */}
         <div className="text-zone">
           <div className="about-container">
             <br />

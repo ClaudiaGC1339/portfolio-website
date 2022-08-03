@@ -1,9 +1,10 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import "./index.css";
-import "../ContactButton/button.css";
+import "./style.css";
+import "../ContactButton/style.css";
 import { HeroH1, HeroP, LinkContainer } from "./HeroElems.js";
 import React from "react";
-// import Navbar from '../Navbar/index.js'
+
+
 
 function openGithub() {
   window.open("https://github.com/ClaudiaGC1339");
@@ -23,7 +24,6 @@ function HeroSection() {
   return (
     <div className="main-container">
       <div className="hero-background">
-      {/* <Navbar/> */}
       </div>
       <div className="hero-content">
         <HeroH1>Claudia Gonzalez</HeroH1>
