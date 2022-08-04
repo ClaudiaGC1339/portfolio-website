@@ -10,7 +10,6 @@ import {
   SiMongodb,
   SiNodedotjs,
 } from "react-icons/si";
-import { DiGit } from "react-icons/di";
 import "./style.css";
 
 function Skills() {

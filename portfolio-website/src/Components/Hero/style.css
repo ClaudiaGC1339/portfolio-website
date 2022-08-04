@@ -1,6 +1,5 @@
 .main-container{
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 1080px;
     position: relative;
@@ -10,7 +9,6 @@
 
 .hero-background{
     background-image: url('../../Images/Cover-2.jpg');
-    position: relative;
     top: 0;
     right: 0;
     bottom: 0;
