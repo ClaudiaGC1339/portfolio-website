@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./style.css"
 import { CarouselData } from "./portfolioData";
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from  "react-icons/fa"
@@ -28,7 +28,6 @@ function previousSlide() {
 
     return (
     <div className="Carousel-Container">      
-    <h2><i>Our community :</i></h2>
     <div className="Carousel">
         <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
         <FaArrowAltCircleLeft className="left-arrow" onClick={previousSlide}/>

@@ -1,16 +1,18 @@
 
 .Carousel {
     position: relative;
-    height: 55vh;
+    height: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .Carousel-Container {
-    color: white;
-    background-color: #252a34;
+    color: black;
+    background-color: transparent;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 3px;
   }
   
@@ -21,7 +23,7 @@
     object-fit: cover;
   }
   .text-container {
-    font-size: medium;
+    font-size: small;
   }
   .slide-active > h3 {
     margin: 10px;
@@ -36,7 +38,7 @@
     top: 50%;
     right: 32px;
     font-size: 3rem;
-    color: white;
+    color: black;
     cursor: pointer;
     user-select: none;
     position: absolute;
@@ -47,7 +49,7 @@
     top: 50%;
     left: 32px;
     font-size: 3rem;
-    color: white;
+    color: black;
     cursor: pointer;
     user-select: none;
     position: absolute;

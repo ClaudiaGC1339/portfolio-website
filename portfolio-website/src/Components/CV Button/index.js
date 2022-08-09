@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 
-function DownloadButton() {
+function DownloadButton(onClick, buttonText) {
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -11,12 +11,13 @@ function DownloadButton() {
     <button
       className="download-bttn"
       to=""
-      smooth={true}
-      duration={500}
-      spy={true}
-      exact="true"
-      offset={-80}
-      primary="true"
+      onClick={onClick}
+      // smooth={true}
+      // duration={500}
+      // spy={true}
+      // exact="true"
+      // offset={-80}
+      // primary="true"
       dark="true"
       onMouseEnter={onHover}
       onMouseLeave={onHover}
