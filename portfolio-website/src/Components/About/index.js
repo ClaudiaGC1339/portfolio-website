@@ -3,13 +3,13 @@ import React from "react";
 import DownloadButton from "../CV Button";
 
 
+
 const About = () => {
   return (
     <div className="container">
       <div className="about-background">
         <div className="text-zone">
           <div className="about-container">
-            <br />
             <h1 className="about-header">About Me</h1>
             <p>
               I am a motivated software engineer with the ability to challenge
@@ -26,7 +26,7 @@ const About = () => {
               utilize and apply my experiences to achieve any task or goal that
               is set ahead of me.
             </p>
-            <br/>
+        
             <DownloadButton />
           </div>
         </div>

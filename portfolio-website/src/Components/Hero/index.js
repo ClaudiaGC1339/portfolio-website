@@ -3,6 +3,7 @@ import "./style.css";
 import "../ContactButton/style.css";
 import { HeroH1, HeroP, LinkContainer } from "./HeroElems.js";
 import React from "react";
+import ContactButton from '../ContactButton'
 
 
 
@@ -38,6 +39,7 @@ function HeroSection() {
             <FaInstagram onClick={openInsta} />
           </HeroP>
         </LinkContainer>
+        <ContactButton/>
       </div>
     </div>
   );

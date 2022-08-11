@@ -8,7 +8,7 @@ import {
   FaAddressBook,
   FaCode,
 } from "react-icons/fa";
-import ContactButton from "../ContactButton";
+// import ContactButton from "../ContactButton";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -63,7 +63,7 @@ const NavBar = () => {
             <FaAddressBook />
             Contact
           </CustomLink>
-          <ContactButton/>
+          {/* <ContactButton/> */}
         </ul>
         </div>
     </nav>

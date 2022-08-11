@@ -19,7 +19,7 @@ const Portfolio = () => {
     window.open()
   }
   function gitYourLocalFoodBank() {
-    window.open()
+    window.open('https://github.com/SchoolOfCode/final-project_front-end-jazzy-code-superheros')
   }
 
     return (
@@ -46,8 +46,8 @@ const Portfolio = () => {
                 <PortfolioH2>Placeholder Text</PortfolioH2>
                 <PortfolioP>Placeholder Text</PortfolioP>
                 <LinkWrap>
-                    <PortfolioLink  >Code</PortfolioLink>
-                    <PortfolioLink  >Site</PortfolioLink>
+                    <PortfolioLink>Code</PortfolioLink>
+                    <PortfolioLink>Site</PortfolioLink>
                 </LinkWrap>
             </PortfolioCard>
             </PortfolioWrapper>

@@ -16,14 +16,13 @@
   letter-spacing: -.8px;
   line-height: 24px;
   min-width: 140px;
-  outline: 0;
-  padding: 20 0px;
   text-align: center;
   text-decoration: none;
   transition: all .3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-bottom: 30px;
 }
 
 .contact-bttn:focus {
