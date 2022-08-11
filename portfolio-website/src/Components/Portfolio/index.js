@@ -1,16 +1,14 @@
 import React from "react";
-// import Carousel from "../Carousel";
 import './style.css'
-// import { CarouselData } from "../Carousel/portfolioData";
 import { 
-  PortContainer,
-  PortH1,
-  PortCard,
-  PortH2,
-  PortP, 
+  PortfolioContainer,
+  PortfolioH1,
+  PortfolioCard,
+  PortfolioH2,
+  PortfolioP, 
   ImgWrap, 
   Img,
-  PortLink, PortWrapper, LinkWrap
+  PortfolioLink, PortfolioWrapper, LinkWrap
 } from './PortfolioElems'
 
 
@@ -26,70 +24,34 @@ const Portfolio = () => {
 
     return (
       <div className="container">
-      <div className="background-container">
-      <h1>Projects</h1>
-      {/* <Carousel slides={CarouselData}/> */}
-        <PortContainer>
-            <PortH1>Portfolio</PortH1>
-            <PortWrapper>
-            <PortCard>
+      <div className="portfolio-background">
+        <PortfolioContainer>
+            <PortfolioH1>Portfolio</PortfolioH1>
+            <PortfolioWrapper>
+            <PortfolioCard>
                 <ImgWrap>
                     <Img />
                 </ImgWrap>
-                <PortH2>Your Local FoodBank</PortH2>
-                <PortP>Placeholder Text</PortP>
+                <PortfolioH2>Your Local FoodBank</PortfolioH2>
+                <PortfolioP>Placeholder Text</PortfolioP>
                 <LinkWrap>
-                    <PortLink onClick={gitYourLocalFoodBank} >Code</PortLink>
-                    <PortLink onClick={YourLocalFoodBank} >Site</PortLink>
+                    <PortfolioLink onClick={gitYourLocalFoodBank} >Code</PortfolioLink>
+                    <PortfolioLink onClick={YourLocalFoodBank} >Site</PortfolioLink>
                 </LinkWrap>
-            </PortCard>
-            <PortCard>
+            </PortfolioCard>
+            <PortfolioCard>
                 <ImgWrap>
                     <Img  />
                 </ImgWrap>
-                <PortH2>Placeholder Text</PortH2>
-                <PortP>Placeholder Text</PortP>
+                <PortfolioH2>Placeholder Text</PortfolioH2>
+                <PortfolioP>Placeholder Text</PortfolioP>
                 <LinkWrap>
-                    <PortLink  >Code</PortLink>
-                    <PortLink  >Site</PortLink>
+                    <PortfolioLink  >Code</PortfolioLink>
+                    <PortfolioLink  >Site</PortfolioLink>
                 </LinkWrap>
-            </PortCard>
-            <PortCard>
-                <ImgWrap>
-                    <Img />
-                </ImgWrap>
-                <PortH2>Placeholder Text</PortH2>
-                <PortP>Placeholder Text</PortP>
-                <LinkWrap>
-                    <PortLink >Code</PortLink>
-                    <PortLink >Site</PortLink>
-                </LinkWrap>
-            </PortCard>
-            <PortCard>
-                <ImgWrap>
-                    <Img />
-                </ImgWrap>
-                <PortH2>Placeholder Text</PortH2>
-                <PortP>Placeholder Text</PortP>
-                <LinkWrap>
-                    <PortLink >Code</PortLink>
-                    <PortLink >Site</PortLink>
-                </LinkWrap>
-            </PortCard>
-            <PortCard>
-                <ImgWrap>
-                    <Img />
-                </ImgWrap>
-                <PortH2>Placeholder Text</PortH2>
-                <PortP>Placeholder Text</PortP>
-                <LinkWrap>
-                    <PortLink >Code</PortLink>
-                    <PortLink >Site</PortLink>
-                </LinkWrap>
-            </PortCard>
-            </PortWrapper>
-        </PortContainer>
-    )
+            </PortfolioCard>
+            </PortfolioWrapper>
+        </PortfolioContainer>
       </div>
       </div>
     );
