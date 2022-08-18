@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
+import CV from '../../assets/Claudia Gonzalez-Casales Software Dev CV.pdf';
 
 function DownloadButton(onClick, buttonText) {
   const [hover, setHover] = useState(false);
@@ -7,18 +8,16 @@ function DownloadButton(onClick, buttonText) {
   const onHover = () => {
     setHover(!hover);
   };
+
+function openCv(){
+  window.open(CV)
+}
+
   return (
     <button
       className="download-bttn"
       to=""
-      onClick={onClick}
-      // smooth={true}
-      // duration={500}
-      // spy={true}
-      // exact="true"
-      // offset={-80}
-      // primary="true"
-      dark="true"
+      onClick={openCv}
       onMouseEnter={onHover}
       onMouseLeave={onHover}
     >
