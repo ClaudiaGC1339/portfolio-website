@@ -9,14 +9,15 @@ import {
   ImgWrap, 
   Img,
   PortfolioLink, PortfolioWrapper, LinkWrap
-} from './PortfolioElems'
+} from './PortfolioElems';
+import FoodBank from '../../Images/foodbank project thumbnail.PNG';
 
 
 const Portfolio = () => {
 
 
   function YourLocalFoodBank() {
-    window.open()
+    window.open('https://your-local-foodbank.netlify.app/')
   }
   function gitYourLocalFoodBank() {
     window.open('https://github.com/SchoolOfCode/final-project_front-end-jazzy-code-superheros')
@@ -30,10 +31,10 @@ const Portfolio = () => {
             <PortfolioWrapper>
             <PortfolioCard>
                 <ImgWrap>
-                    <Img />
+                    <Img src={FoodBank} alt="foodbank project thumbnail"/>
                 </ImgWrap>
                 <PortfolioH2>Your Local FoodBank</PortfolioH2>
-                <PortfolioP>Placeholder Text</PortfolioP>
+                <PortfolioP> An application helps people to find out more about their local foodbank as well as allowing foodbanks to reach out to the wider community.</PortfolioP>
                 <LinkWrap>
                     <PortfolioLink onClick={gitYourLocalFoodBank} >Code</PortfolioLink>
                     <PortfolioLink onClick={YourLocalFoodBank} >Site</PortfolioLink>
@@ -43,7 +44,7 @@ const Portfolio = () => {
                 <ImgWrap>
                     <Img  />
                 </ImgWrap>
-                <PortfolioH2>Placeholder Text</PortfolioH2>
+                <PortfolioH2>Ghibli Movie API</PortfolioH2>
                 <PortfolioP>Placeholder Text</PortfolioP>
                 <LinkWrap>
                     <PortfolioLink>Code</PortfolioLink>

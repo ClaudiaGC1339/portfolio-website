@@ -78,7 +78,7 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 80%;
+  width: 100%;
   box-shadow: 0 0 10px #212121;
 `;
 

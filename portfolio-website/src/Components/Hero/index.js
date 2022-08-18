@@ -3,7 +3,7 @@ import "./style.css";
 import "../ContactButton/style.css";
 import { HeroH1, HeroP, LinkContainer } from "./HeroElems.js";
 import React from "react";
-import ContactButton from '../ContactButton'
+import DownloadButton from '../CV Button'
 
 
 
@@ -19,6 +19,10 @@ function openLinkedin() {
 
 function openInsta() {
   window.open("https://www.instagram.com/claudiaa_gonzalez_)/");
+}
+
+function openCV() {
+  window.open()
 }
 
 function HeroSection() {
@@ -39,7 +43,7 @@ function HeroSection() {
             <FaInstagram onClick={openInsta} />
           </HeroP>
         </LinkContainer>
-        <ContactButton/>
+        <DownloadButton/>
       </div>
     </div>
   );

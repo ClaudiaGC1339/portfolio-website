@@ -1,6 +1,6 @@
 import "./style.scss";
 import React from "react";
-import DownloadButton from "../CV Button";
+// import DownloadButton from "../CV Button";
 
 
 
@@ -27,7 +27,7 @@ const About = () => {
               is set ahead of me.
             </p>
         
-            <DownloadButton />
+            {/* <DownloadButton /> */}
           </div>
         </div>
       </div>

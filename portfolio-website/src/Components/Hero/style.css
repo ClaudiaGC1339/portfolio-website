@@ -1,8 +1,7 @@
 .main-container{
     display: flex;
     align-items: center;
-    height: 1080px;
-    position: relative;
+    height: 884px;
     z-index: 1;
 }
 

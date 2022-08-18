@@ -5,7 +5,7 @@ import {
   FaBars,
   FaRegUser,
   FaChalkboard,
-  FaAddressBook,
+  // FaAddressBook,
   FaCode,
 } from "react-icons/fa";
 // import ContactButton from "../ContactButton";
@@ -59,10 +59,10 @@ const NavBar = () => {
             <FaCode />
             Skills
           </CustomLink>
-          <CustomLink to="/contact">
+          {/* <CustomLink to="/contact">
             <FaAddressBook />
             Contact
-          </CustomLink>
+          </CustomLink> */}
           {/* <ContactButton/> */}
         </ul>
         </div>
