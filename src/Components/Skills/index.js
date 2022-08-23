@@ -14,8 +14,8 @@ import "./style.css";
 
 function Skills() {
   return (
-    <div className="container">
-      <div className="skills-container">
+    <div className="skills-container">
+      <div className="skills-background">
         <h1 className="skills-title">Skills</h1>
         <div className="skills-wrapper">
           <div className="skills-card">
