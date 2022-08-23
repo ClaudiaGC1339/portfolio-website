@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import CV from '../../assets/Claudia Gonzalez-Casales Software Dev CV.pdf';
+import CV from '../../assets/Claudia Gonzalez-Casales Software Dev2 CV.pdf';
 
 function DownloadButton(onClick, buttonText) {
   const [hover, setHover] = useState(false);
