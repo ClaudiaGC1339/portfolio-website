@@ -1,4 +1,9 @@
-.container{
-    /* background-image: '../../Images/Portfolio.jpg'; */
+.portfolio-container{
+    height: 884px;
+}
+.portfolio-background{
+    background-image: url('../../Images/Portfolio.jpg');
     color: black;
+    height: 100%;
+    width: 100%;
 }

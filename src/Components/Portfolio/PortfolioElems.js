@@ -4,11 +4,9 @@ export const PortfolioContainer = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   color: '#030029';
   overflow:hidden;
-  margin-bottom: 20px;
 
 `;
 
@@ -19,7 +17,6 @@ export const PortfolioWrapper = styled.div`
   align-items: center;
   grid-gap: 50px;
   padding: 10px 50px;
-  
 `;
 
 export const PortfolioCard = styled.div`
@@ -58,6 +55,7 @@ export const PortfolioH1 = styled.h1`
   font-size: 50px;
   text-align: center;
   text-shadow: 0 0 10px #fff59d;
+  marginTop: 100px; 
 `;
 
 export const PortfolioH2 = styled.h2`

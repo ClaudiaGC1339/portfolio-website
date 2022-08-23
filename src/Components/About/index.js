@@ -1,12 +1,11 @@
 import "./style.scss";
 import React from "react";
-// import DownloadButton from "../CV Button";
 
 
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="about-container">
       <div className="about-background">
         <div className="text-zone">
           <div className="about-container">
@@ -17,7 +16,6 @@ const About = () => {
              bdfbdbdfbdfbdfbdfbdfbdfbdfbdfb
             </p>
         
-            {/* <DownloadButton /> */}
           </div>
         </div>
       </div>

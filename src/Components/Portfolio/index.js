@@ -30,7 +30,7 @@ const Portfolio = () => {
   }
 
     return (
-      <div className="container">
+      <div className="portfolio-container">
       <div className="portfolio-background">
         <PortfolioContainer>
             <PortfolioH1>Portfolio</PortfolioH1>
