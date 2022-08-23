@@ -4,7 +4,7 @@ import "../ContactButton/style.css";
 import { HeroH1, HeroP, LinkContainer } from "./HeroElems.js";
 import React from "react";
 import DownloadButton from '../CV Button';
-import CV from '../../assets/Claudia Gonzalez-Casales Software Dev CV.pdf';
+
 
 
 
